@@ -1,0 +1,53 @@
+{
+  "purpose": "training-only memorization diagnostic, not validation performance",
+  "compound_ids": [
+    "CHEMBL1595985",
+    "CHEMBL110611",
+    "CHEMBL4476663",
+    "CHEMBL106238",
+    "CHEMBL3",
+    "CHEMBL3137744",
+    "CHEMBL443623",
+    "CHEMBL6199601"
+  ],
+  "reference_smiles": [
+    "C=CCCC#N",
+    "NCC#Cc1ccccc1",
+    "c1cnc2[nH]cnc2c1",
+    "C=C(CN)c1ccco1",
+    "CN1CCC[C@H]1c1cccnc1",
+    "OC[C@@H](O)[C@@H](O)[C@@H](O)CO",
+    "CO[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O",
+    "Cc1ccc(C(=O)S)cc1"
+  ],
+  "predicted_smiles": [
+    "C=CCCC#N",
+    "NCC#Cc1ccccc1",
+    "c1cnc2[nH]cnc2c1",
+    "C=C(CN)c1ccco1",
+    "CN1CCC[C@H]1c1cccnc1",
+    "OC[C@@H](O)[C@@H](O)[C@@H](O)CO",
+    "CO[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O",
+    "Cc1ccc(C(=O)S)cc1"
+  ],
+  "vocabulary_size": 61,
+  "max_decode_length": 23,
+  "trace": [
+    {
+      "step": 20,
+      "loss": 1.3800383806228638,
+      "exact_count": 0
+    },
+    {
+      "step": 40,
+      "loss": 0.2968519330024719,
+      "exact_count": 5
+    },
+    {
+      "step": 60,
+      "loss": 0.06980428844690323,
+      "exact_count": 8
+    }
+  ],
+  "memorized_all": true
+}

@@ -1,0 +1,20 @@
+{
+  "evaluation_set": "DECIMER Hand-Drawn Molecule Images v1.2; held-out external benchmark",
+  "benchmark_manifest_sha256": "bb88840799a54eadbaff7776a440744dec2cdeb7a84bde37d8cb4294e58e97f8",
+  "prediction_field": "post_SMILES",
+  "reference_handling": "All 5,088 rows remain in the denominator. References unsupported by the local RDKit build receive zero for chemical-match and Tanimoto metrics.",
+  "summary": {
+    "count": 5088,
+    "reference_parseable_rate": 0.9996069182389937,
+    "valid_smiles_rate": 0.7651336477987422,
+    "exact_isomeric_match_rate": 0.09689465408805031,
+    "exact_nonisomeric_match_rate": 0.11163522012578617,
+    "mean_tanimoto": 0.29980935441462625,
+    "median_tanimoto": 0.21052631578947367,
+    "tanimoto_at_least_0_8": 0.11497641509433962,
+    "tanimoto_at_least_0_9": 0.11202830188679246,
+    "mean_edit_distance": 17.65566037735849,
+    "mean_tanimoto_ci95_low": 0.29123609250801896,
+    "mean_tanimoto_ci95_high": 0.3087179124656316
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "count": 32,
+  "checkpoint_epoch": 4,
+  "correct_image_token_loss": 1.68514404296875,
+  "shuffled_image_token_loss": 1.7322725736177884,
+  "blank_image_token_loss": 1.8501144017928686,
+  "note": "Diagnostic on synthetic validation only; lower correct-image loss indicates image use"
+}

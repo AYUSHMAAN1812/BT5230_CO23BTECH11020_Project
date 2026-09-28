@@ -1,0 +1,35 @@
+{
+  "count": 470,
+  "metrics": {
+    "valid": {
+      "baseline_mean": 0.16595744680851063,
+      "candidate_mean": 0.0,
+      "candidate_minus_baseline": -0.16595744680851063,
+      "paired_delta_ci95_low": -0.19787234042553192,
+      "paired_delta_ci95_high": -0.13191489361702127
+    },
+    "exact_isomeric_match": {
+      "baseline_mean": 0.0,
+      "candidate_mean": 0.0,
+      "candidate_minus_baseline": 0.0,
+      "paired_delta_ci95_low": 0.0,
+      "paired_delta_ci95_high": 0.0
+    },
+    "exact_nonisomeric_match": {
+      "baseline_mean": 0.0,
+      "candidate_mean": 0.0,
+      "candidate_minus_baseline": 0.0,
+      "paired_delta_ci95_low": 0.0,
+      "paired_delta_ci95_high": 0.0
+    },
+    "tanimoto": {
+      "baseline_mean": 0.012028626091747499,
+      "candidate_mean": 0.0,
+      "candidate_minus_baseline": -0.012028626091747499,
+      "paired_delta_ci95_low": -0.014965038349307068,
+      "paired_delta_ci95_high": -0.009216541299776358
+    }
+  },
+  "baseline_file": "artifacts\\metrics\\stage_5000_spatial_clean_val470_per_image.csv",
+  "candidate_file": "artifacts\\metrics\\stage_5000_spatial_groupnorm_clean_val470_per_image.csv"
+}

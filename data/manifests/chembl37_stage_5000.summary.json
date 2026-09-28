@@ -1,0 +1,11 @@
+{
+  "input_count": 5000,
+  "accepted_count": 4698,
+  "rejected_count": 302,
+  "split_counts": {
+    "train": 3758,
+    "test": 470,
+    "validation": 470
+  },
+  "seed": 20260915
+}

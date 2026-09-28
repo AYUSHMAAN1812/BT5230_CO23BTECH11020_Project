@@ -1,0 +1,35 @@
+{
+  "count": 470,
+  "metrics": {
+    "valid": {
+      "baseline_mean": 0.16595744680851063,
+      "candidate_mean": 0.1148936170212766,
+      "candidate_minus_baseline": -0.05106382978723404,
+      "paired_delta_ci95_low": -0.09361702127659574,
+      "paired_delta_ci95_high": -0.00851063829787234
+    },
+    "exact_isomeric_match": {
+      "baseline_mean": 0.0,
+      "candidate_mean": 0.0,
+      "candidate_minus_baseline": 0.0,
+      "paired_delta_ci95_low": 0.0,
+      "paired_delta_ci95_high": 0.0
+    },
+    "exact_nonisomeric_match": {
+      "baseline_mean": 0.0,
+      "candidate_mean": 0.0,
+      "candidate_minus_baseline": 0.0,
+      "paired_delta_ci95_low": 0.0,
+      "paired_delta_ci95_high": 0.0
+    },
+    "tanimoto": {
+      "baseline_mean": 0.012028626091747499,
+      "candidate_mean": 0.011909800325236801,
+      "candidate_minus_baseline": -0.00011882576651069812,
+      "paired_delta_ci95_low": -0.004247991423077408,
+      "paired_delta_ci95_high": 0.004120283004962283
+    }
+  },
+  "baseline_file": "artifacts\\metrics\\stage_5000_spatial_clean_val470_per_image.csv",
+  "candidate_file": "artifacts\\metrics\\stage_5000_mobilenet_frozen_clean_val470_per_image.csv"
+}

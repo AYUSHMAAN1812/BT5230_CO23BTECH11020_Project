@@ -1,0 +1,35 @@
+{
+  "count": 5088,
+  "metrics": {
+    "valid": {
+      "baseline_mean": 0.7651336477987422,
+      "candidate_mean": 0.7682783018867925,
+      "candidate_minus_baseline": 0.0031446540880503146,
+      "paired_delta_ci95_low": -0.006878930817610063,
+      "paired_delta_ci95_high": 0.012780070754716955
+    },
+    "exact_isomeric_match": {
+      "baseline_mean": 0.09689465408805031,
+      "candidate_mean": 0.0972877358490566,
+      "candidate_minus_baseline": 0.00039308176100628933,
+      "paired_delta_ci95_low": -0.0047169811320754715,
+      "paired_delta_ci95_high": 0.005306603773584905
+    },
+    "exact_nonisomeric_match": {
+      "baseline_mean": 0.11163522012578617,
+      "candidate_mean": 0.1104559748427673,
+      "candidate_minus_baseline": -0.0011792452830188679,
+      "paired_delta_ci95_low": -0.0064907625786163525,
+      "paired_delta_ci95_high": 0.003930817610062893
+    },
+    "tanimoto": {
+      "baseline_mean": 0.29980935441462625,
+      "candidate_mean": 0.2941200774598872,
+      "candidate_minus_baseline": -0.0056892769547390865,
+      "paired_delta_ci95_low": -0.011131173079102021,
+      "paired_delta_ci95_high": -0.0005497640887239198
+    }
+  },
+  "baseline_file": "artifacts\\metrics\\molscribe\\decimer_clean\\prediction_decimer_hdm_benchmark_per_image.csv",
+  "candidate_file": "artifacts\\metrics\\molscribe\\decimer_augmented\\augmented_prediction_decimer_hdm_benchmark_per_image.csv"
+}

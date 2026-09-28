@@ -1,0 +1,20 @@
+{
+  "molscribe_commit": "7296a30413eb55436702011efdff78131f66d162",
+  "checkpoint_sha256": "32821fa4ba8d17f9a92e374601438c5e757947dbf1141e9ad0ef51cccfa1c501",
+  "dataset_zip_sha256": "05c42002ea761ce5ff265948cdabffef3329a5ca3b63007a758d2a4d66164252",
+  "training_epochs": 1,
+  "formats": ["chartok_coords"],
+  "gpu": "Tesla T4",
+  "key_dependencies": {
+    "python": "3.10.21",
+    "torch": "1.13.1+cu117",
+    "torchvision": "0.14.1+cu117",
+    "numpy": "1.23.5",
+    "rdkit": "2022.9.5",
+    "opennmt-py": "2.2.0",
+    "timm": "0.4.12",
+    "transformers": "4.30.2",
+    "albumentations": "1.1.0"
+  },
+  "full_environment_source": "C:/Users/ayush/Downloads/run_info.json"
+}

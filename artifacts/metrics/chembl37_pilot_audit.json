@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "manifest": "data\\manifests\\chembl37_pilot_500_clean.csv",
+  "condition": [
+    "clean"
+  ],
+  "count": 478,
+  "split_counts": {
+    "train": 382,
+    "validation": 48,
+    "test": 48
+  },
+  "matched_condition_manifest": true,
+  "unique_molecules": 478,
+  "image_dimensions": [
+    [
+      224,
+      224
+    ]
+  ],
+  "total_image_megabytes": 2.94069,
+  "image_bytes": {
+    "min": 3517.0,
+    "median": 5983.5,
+    "p95": 8337.449999999999,
+    "max": 10073.0,
+    "mean": 6152.071129707113
+  },
+  "sequence_tokens_including_special": {
+    "min": 20.0,
+    "median": 52.0,
+    "p95": 79.0,
+    "max": 117.0,
+    "mean": 53.1673640167364
+  },
+  "atom_count": {
+    "min": 11.0,
+    "median": 29.0,
+    "p95": 47.0,
+    "max": 68.0,
+    "mean": 30.648535564853557
+  },
+  "ring_count": {
+    "min": 1.0,
+    "median": 4.0,
+    "p95": 6.0,
+    "max": 15.0,
+    "mean": 3.912133891213389
+  },
+  "stereocenter_count": {
+    "min": 0.0,
+    "median": 0.0,
+    "p95": 3.0,
+    "max": 18.0,
+    "mean": 0.9832635983263598
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "ChEMBL Data Web Services",
+  "api_root": "https://www.ebi.ac.uk/chembl/api/data",
+  "chembl_db_version": "ChEMBL_37",
+  "chembl_release_date": "2026-05-01",
+  "retrieved_at_utc": "2026-09-16T18:40:45.908354+00:00",
+  "requested_records": 5000,
+  "downloaded_records": 5000,
+  "source_total_count": 2897819,
+  "distributed_offsets": [
+    0,
+    152504,
+    305007,
+    457511,
+    610015,
+    762518,
+    915022,
+    1067525,
+    1220029,
+    1372533,
+    1525036,
+    1677540,
+    1830044,
+    1982547,
+    2135051,
+    2287554,
+    2440058,
+    2592562,
+    2745065,
+    2897569
+  ],
+  "sha256": "f45f70eb451225e67cb907b544c768d578716379be29138de474cfcc61f1ad6c"
+}

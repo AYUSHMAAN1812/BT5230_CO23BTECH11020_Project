@@ -1,0 +1,10 @@
+{
+  "count": 100,
+  "valid_smiles_rate": 0.96,
+  "exact_isomeric_rate": 0.64,
+  "exact_isomeric_wilson95_low": 0.542352199811621,
+  "exact_isomeric_wilson95_high": 0.7272892540950986,
+  "exact_nonisomeric_rate": 0.69,
+  "mean_tanimoto": 0.8111145027473247,
+  "mean_seconds_per_image": 4.322107253074646
+}

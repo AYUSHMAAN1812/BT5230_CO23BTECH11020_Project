@@ -1,0 +1,70 @@
+{
+  "count": 100,
+  "sample_definition": "Fixed seed-20260925 simple random sample assembled as 20 initial IDs plus 80 random IDs from the remaining benchmark images.",
+  "metrics": {
+    "decimer_external": {
+      "valid": 0.96,
+      "exact_isomeric": 0.64,
+      "exact_nonisomeric": 0.69,
+      "tanimoto": 0.8111145027473247
+    },
+    "molscribe_clean": {
+      "valid": 0.75,
+      "exact_isomeric": 0.07,
+      "exact_nonisomeric": 0.11,
+      "tanimoto": 0.2736819654854117
+    },
+    "molscribe_augmented": {
+      "valid": 0.74,
+      "exact_isomeric": 0.09,
+      "exact_nonisomeric": 0.12,
+      "tanimoto": 0.26805279019912126
+    }
+  },
+  "paired_decimer_minus_molscribe": {
+    "molscribe_clean": {
+      "valid": {
+        "difference": 0.20999999999999996,
+        "paired_bootstrap_ci95_low": 0.12,
+        "paired_bootstrap_ci95_high": 0.31
+      },
+      "exact_isomeric": {
+        "difference": 0.5700000000000001,
+        "paired_bootstrap_ci95_low": 0.47,
+        "paired_bootstrap_ci95_high": 0.67
+      },
+      "exact_nonisomeric": {
+        "difference": 0.58,
+        "paired_bootstrap_ci95_low": 0.47,
+        "paired_bootstrap_ci95_high": 0.68
+      },
+      "tanimoto": {
+        "difference": 0.537432537261913,
+        "paired_bootstrap_ci95_low": 0.45696991597025804,
+        "paired_bootstrap_ci95_high": 0.6172503098650317
+      }
+    },
+    "molscribe_augmented": {
+      "valid": {
+        "difference": 0.21999999999999997,
+        "paired_bootstrap_ci95_low": 0.13,
+        "paired_bootstrap_ci95_high": 0.31
+      },
+      "exact_isomeric": {
+        "difference": 0.55,
+        "paired_bootstrap_ci95_low": 0.45,
+        "paired_bootstrap_ci95_high": 0.65
+      },
+      "exact_nonisomeric": {
+        "difference": 0.57,
+        "paired_bootstrap_ci95_low": 0.46,
+        "paired_bootstrap_ci95_high": 0.67
+      },
+      "tanimoto": {
+        "difference": 0.5430617125482033,
+        "paired_bootstrap_ci95_low": 0.46038801969499393,
+        "paired_bootstrap_ci95_high": 0.6240865538880389
+      }
+    }
+  }
+}

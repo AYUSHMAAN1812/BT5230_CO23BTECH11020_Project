@@ -1,0 +1,21 @@
+{
+  "experiment_id": "E0",
+  "status": "passed",
+  "purpose": "pipeline integration only; predictive performance is not interpreted",
+  "device": "cpu",
+  "train_count": 38,
+  "validation_count": 5,
+  "train_loss": 3.22022052815086,
+  "validation_loss": 3.3921194076538086,
+  "metrics": {
+    "count": 5,
+    "valid_smiles_rate": 0.0,
+    "exact_isomeric_match_rate": 0.0,
+    "exact_nonisomeric_match_rate": 0.0,
+    "mean_tanimoto": 0.0,
+    "median_tanimoto": 0.0,
+    "tanimoto_at_least_0_8": 0.0,
+    "tanimoto_at_least_0_9": 0.0,
+    "mean_edit_distance": 12.6
+  }
+}

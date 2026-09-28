@@ -1,0 +1,19 @@
+{
+  "evaluation_set": "clean synthetic ChEMBL 37 validation; real benchmark remains held out",
+  "prediction_field": "post_SMILES",
+  "summary": {
+    "count": 470,
+    "valid_smiles_rate": 0.8127659574468085,
+    "exact_isomeric_match_rate": 0.6382978723404256,
+    "exact_nonisomeric_match_rate": 0.7893617021276595,
+    "mean_tanimoto": 0.8054046447203055,
+    "median_tanimoto": 1.0,
+    "tanimoto_at_least_0_8": 0.7978723404255319,
+    "tanimoto_at_least_0_9": 0.7893617021276595,
+    "mean_edit_distance": 6.202127659574468,
+    "mean_tanimoto_ci95_low": 0.7678597523455954,
+    "mean_tanimoto_ci95_high": 0.8396650177932161
+  },
+  "nonisomeric_exact_count": 371,
+  "synthetic_viability_gate_passed": true
+}

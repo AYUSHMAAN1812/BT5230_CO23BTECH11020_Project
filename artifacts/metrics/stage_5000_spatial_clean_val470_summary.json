@@ -1,0 +1,13 @@
+{
+  "count": 470,
+  "valid_smiles_rate": 0.16595744680851063,
+  "exact_isomeric_match_rate": 0.0,
+  "exact_nonisomeric_match_rate": 0.0,
+  "mean_tanimoto": 0.012028626091747504,
+  "median_tanimoto": 0.0,
+  "tanimoto_at_least_0_8": 0.0,
+  "tanimoto_at_least_0_9": 0.0,
+  "mean_edit_distance": 41.61489361702127,
+  "mean_tanimoto_ci95_low": 0.00919640985741443,
+  "mean_tanimoto_ci95_high": 0.015038037767911195
+}

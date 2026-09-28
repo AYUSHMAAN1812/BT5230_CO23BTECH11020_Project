@@ -1,0 +1,11 @@
+{
+  "count": 32,
+  "checkpoint_kind": "best",
+  "checkpoint_epoch": 5,
+  "correct_image_token_loss": 1.5333233173076923,
+  "shuffled_image_token_loss": 1.674406237479968,
+  "blank_image_token_loss": 1.7289026504907852,
+  "note": "Diagnostic on synthetic validation only; lower correct-image loss indicates image use",
+  "batch_stat_image_token_loss": 1.8294104942908653,
+  "batch_stat_note": "BatchNorm uses statistics of these same synthetic validation images only for diagnosis; this is not an inference or checkpoint-selection metric"
+}

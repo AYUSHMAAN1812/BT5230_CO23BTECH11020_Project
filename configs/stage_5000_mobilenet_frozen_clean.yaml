@@ -1,0 +1,25 @@
+experiment_id: STAGE_5000_MOBILENET_FROZEN_CLEAN
+condition: clean
+seed: 20260915
+image_size: 224
+image_normalization: imagenet
+max_sequence_length: 128
+model:
+  encoder: mobilenet_v3_small_frozen
+  encoder_position: sincos_2d
+  embedding_dim: 64
+  decoder_layers: 1
+  attention_heads: 4
+  feedforward_dim: 128
+  dropout: 0.10
+  pretrained_weights_path: artifacts/pretrained/mobilenet_v3_small-047dcff4.pth
+  pretrained_weights_sha256: 047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f
+training:
+  batch_size: 32
+  epochs: 5
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  gradient_clip_norm: 1.0
+  early_stopping_patience: 3
+decoding:
+  method: greedy
