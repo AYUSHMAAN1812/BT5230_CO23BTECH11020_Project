@@ -9,6 +9,8 @@
 
 ## Project overview
 
+Video Presentation : https://drive.google.com/file/d/14xVLwUYbbS8btUqmwoY3X33HjMtwyt0I/view?usp=sharing
+
 This project addresses Challenge 72, **Optical Chemical Structure Recognition for Digitizing Legacy Chemistry Literature**. It converts chemical-structure images into machine-readable SMILES. The main controlled experiment compares MolScribe fine-tuning on clean synthetic molecular depictions with matched fine-tuning on hand-drawn-style augmented depictions. Both selected models are evaluated on all 5,088 images in the DECIMER hand-drawn benchmark using exact SMILES matching and chemistry-aware Tanimoto similarity.
 
 ## Reference paper
