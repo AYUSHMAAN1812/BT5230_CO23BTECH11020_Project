@@ -233,10 +233,6 @@ The simplest independent check is still:
 python scripts/reproduce_benchmark_metrics.py
 ```
 
-## Before creating the submission archive
-
-Do not include local runtime files produced during verification. Confirm that the submission folder does not contain `.venv`, `.pytest_tmp`, `.pytest_cache`, `.ruff_cache`, `__pycache__`, `*.pyc`, or `*.egg-info`. These files are machine-specific and are recreated automatically when required.
-
 ## Limitations and responsible use
 
 - The synthetic hand-drawn-style augmentation did not close the synthetic-to-real domain gap.
