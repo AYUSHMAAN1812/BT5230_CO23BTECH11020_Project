@@ -7,9 +7,12 @@
 - **Institution:** IIT Hyderabad
 - **Course:** BT5230 AI in Drug Discovery
 
-## Project overview
+## Presentation video
 
-Video Presentation : https://drive.google.com/file/d/14xVLwUYbbS8btUqmwoY3X33HjMtwyt0I/view?usp=sharing
+- **Final project presentation:** [Watch on Google Drive](https://drive.google.com/file/d/14xVLwUYbbS8btUqmwoY3X33HjMtwyt0I/view?usp=sharing)
+- **Public GitHub repository:** [BT5230_CO23BTECH11020_Project](https://github.com/AYUSHMAAN1812/BT5230_CO23BTECH11020_Project)
+
+## Project overview
 
 This project addresses Challenge 72, **Optical Chemical Structure Recognition for Digitizing Legacy Chemistry Literature**. It converts chemical-structure images into machine-readable SMILES. The main controlled experiment compares MolScribe fine-tuning on clean synthetic molecular depictions with matched fine-tuning on hand-drawn-style augmented depictions. Both selected models are evaluated on all 5,088 images in the DECIMER hand-drawn benchmark using exact SMILES matching and chemistry-aware Tanimoto similarity.
 
@@ -70,8 +73,7 @@ Validity and exact-match differences were inconclusive. The paired 95% confidenc
 - `reports/final/AIDD_Challenge72_Presentation.pdf`: presentation PDF.
 - `reports/final/AIDD_Challenge72_Presentation.tex`: editable presentation source.
 - `requirements.txt`: pinned local verification dependencies.
-
-The remaining course deliverable is the 5-10 minute presentation video or a working video link.
+- Final 5--10 minute presentation video: linked under **Presentation video** above.
 
 ## Environment setup
 
